@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #131e3d;
+    color: aliceblue;
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+/* -------- HEADER -------- */
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+header{
+    width: 100%;
+    height: 60px;
+    /* border: 1px solid red; */
+}
+header nav{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+header nav .nav-right-section{
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-right-section a{
+    margin: 10px;
+}
+nav .nav-right-section .menu-icon{
+    background-image: url('./imagenes/cuadricula.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+nav .nav-right-section img{
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+/* -------- BODY -------- */
+main{
+    margin-top: 150px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+main .main-logo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+main .main-logo img{
+    width: 300px;
+}
+main .main-input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+main .main-input-container{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid rgb(175, 180, 185);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .main-input input{
+    width: 450px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: aliceblue;
+}
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px 0 rgb(165, 165, 165);
+    border-color: aliceblue;
+}
+
+main .main-input .search-icon{
+    background-image: url('https://us.123rf.com/450wm/sommersby/sommersby1610/sommersby161000099/65448794-blanco-b%C3%BAsqueda-de-icono-de-plano-sobre-un-fondo-azul-la-b%C3%BAsqueda-icono-del-dise%C3%B1o-la-b%C3%BAsqueda-web-i.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin-right:  7px;
+}
+main .main-input .microfon-icon{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+main .main-buttons{
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .main-buttons div{
+    display: inline-block;
+}
+main .main-buttons button{
+    height: 36px;
+    background-color: #f2f2f2;
+    border: 0;
+    font-size: 14px;
+    color: gray;
+    border-radius: 5px;
+    padding: 0 15px;
+    
+    margin-right: 15px;
+}
+
+main .main-buttons button:hover{
+    border: 1px solid #dcdcdc;
+    box-shadow: 0 1px 1px #dcdcdc;
+    color: black;
+}
+
+
+/* FOOTER    */
+footer{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 13px;
+    background-color: #080e1c;
+    border-top: 1px solid gray;
+}
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+footer .footer-left{
+    justify-content: left;
+}
+
+footer .footer-right{
+    justify-content: right;
+}
+
+footer ul li a{
+    margin: 10px;
+    color: rgba(240, 248, 255, 0.543);
+}
